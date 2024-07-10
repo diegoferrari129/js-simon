@@ -12,6 +12,16 @@ while (randomNumbers.length < 5) {
     }
 }
 
+// MOSTRO I 5 NUMERI RANDOM NELLA PAGINA
+// recupero l'elemento dal dom
+let displayNumbers = document.getElementById('random-numbers');
+// mostro il valore di randomNumbers nella pagina
+displayNumbers.innerText = randomNumbers;
+console.log(randomNumbers);
+
+
+
+
 
 
 
